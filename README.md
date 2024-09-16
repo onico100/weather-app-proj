@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+also need to run this two commands:
+
+npm install axios
+npm install react-icons --save
 
 ## Available Scripts
 
