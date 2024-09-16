@@ -46,7 +46,7 @@ function WeatherSections({ places }) {
                 <strong>טמפרטורה:</strong> {place.temperature}°C
               </p>{" "}
               <p>
-                <strong>טמפרטורה מורגשת``:</strong> {place.feelsLike}°C
+                <strong>טמפרטורה מורגשת:</strong> {place.feelsLike}°C
               </p>{" "}
               <p>
                 <strong>לחות:</strong> {place.humidity}%
