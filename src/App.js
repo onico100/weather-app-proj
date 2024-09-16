@@ -9,7 +9,7 @@ const translateDescriptionToHebrew = (description) => {
     "clear sky": "שמיים בהירים",
     "few clouds": "מעט עננים",
     "scattered clouds": "עננים פזורים",
-    "broken clouds": "עננים שבורים",
+    "broken clouds": "מעונן חלקית",
     "shower rain": "גשם מקומי",
     rain: "גשם",
     thunderstorm: "סופת רעמים",

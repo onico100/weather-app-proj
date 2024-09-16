@@ -1,24 +1,54 @@
+/* Background pattern with shades of blue */
 .weather-sections {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Grid layout for 2 columns */
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
   gap: 20px;
   padding: 20px;
+  background: linear-gradient(to bottom, #a0d9ff, #d0ebff); /* Blue gradient */
+  height: 100vh;
   direction: rtl; /* Right-to-left layout */
 }
 
 .weather-section {
-  background-color: #f1f1f1;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: right; /* Right-align text */
+  position: relative;
+  text-align: right;
 }
 
-.weather-section h2 {
+.weather-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.city-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 5rem;
+}
+
+.weather-content {
+  padding: 0 50px; /* Add padding for space */
+}
+
+.weather-content h2 {
+  font-size: 3rem; /* Larger place name */
   margin-bottom: 10px;
-  color: #007bff;
+  color: #210356;
 }
 
-.weather-section p {
-  margin: 5px 0;
+.description {
+  margin-bottom: 10px; /* Space between description and weather details */
+}
+
+.weather-details {
+  margin-top: 10px; /* Space between description and weather details */
+}
+
+.weather-details p {
+  margin: 5px 0; /* Space between each detail */
 }
