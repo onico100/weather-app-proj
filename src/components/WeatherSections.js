@@ -8,17 +8,17 @@ function WeatherSections({ places }) {
         <div className="weather-section" key={index}>
           <h2>{place.name}</h2>
           <p>
-            <strong>Description:</strong> {place.description}
-          </p>
+            <strong>תיאור:</strong> {place.description}
+          </p>{" "}
           <p>
-            <strong>Temperature:</strong> {place.temperature}°C
-          </p>
+            <strong>טמפרטורה:</strong> {place.temperature}°C
+          </p>{" "}
           <p>
-            <strong>Feels Like:</strong> {place.feelsLike}°C
-          </p>
+            <strong>:טמפרטורה המורגשת</strong> {place.feelsLike}°C
+          </p>{" "}
           <p>
-            <strong>Humidity:</strong> {place.humidity}%
-          </p>
+            <strong>לחות:</strong> {place.humidity}%
+          </p>{" "}
         </div>
       ))}
     </div>

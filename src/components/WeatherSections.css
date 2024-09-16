@@ -1,8 +1,9 @@
 .weather-sections {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* Grid layout for 2 columns */
   gap: 20px;
   padding: 20px;
+  direction: rtl; /* Right-to-left layout */
 }
 
 .weather-section {
@@ -10,7 +11,7 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: right; /* Right-align text */
 }
 
 .weather-section h2 {
